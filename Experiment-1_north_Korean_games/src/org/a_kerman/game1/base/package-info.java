@@ -1,0 +1,10 @@
+package org.a_kerman.game1.base;
+
+/**
+ * в пакете org.a_kerman.game1.base находятся основные классы проекта, а именно:
+ * World - мир, содержит Region[][], Ragion - содержит List(Structure) и ссылку
+ * на Contry, а так же ссылку на Residents и ссылку на org.a_kerman.game1.Const.Residenttype, Structure - минимальная
+ * экономическая еденица, про которую более подробно будет описано в самом
+ * классе, Residents - люди, этот класс содержит усреднённые сведенья об
+ * обществе некой месности
+ */
