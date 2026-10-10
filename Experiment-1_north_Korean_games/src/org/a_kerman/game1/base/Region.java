@@ -9,10 +9,11 @@ import java.util.List;
  */
 public class Region {
 
-    public Region(Regiontype regiontype, Residents residents, Country country) {
+    public Region(Regiontype regiontype, Residents residents, Country country, Mail mail) {
         this.regiontype = regiontype;
         this.residents = residents;
         this.country = country;
+        this.mail = mail;
     }
 
     private final List<Structure> structurs = new ArrayList<>();
@@ -20,6 +21,15 @@ public class Region {
     private final Regiontype regiontype;
     private Residents residents;
     private Country country;
+    private Mail mail;
+
+    public Mail getMail() {
+        return mail;
+    }
+
+    public void setMail(Mail mail) {
+        this.mail = mail;
+    }
 
     public List<Structure> getStructurs() {
         return structurs;

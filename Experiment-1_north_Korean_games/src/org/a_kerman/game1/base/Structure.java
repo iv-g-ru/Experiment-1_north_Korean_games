@@ -4,7 +4,7 @@ package org.a_kerman.game1.base;
  *
  * @author iv-g-ru
  */
-class Structure {
+public abstract class Structure {
 
     protected final Region region;
 
@@ -15,5 +15,7 @@ class Structure {
     public Region getRegion() {
         return region;
     }
+
+    public abstract void action();
 
 }

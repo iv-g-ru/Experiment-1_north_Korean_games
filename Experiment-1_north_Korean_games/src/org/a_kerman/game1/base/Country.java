@@ -4,7 +4,7 @@ package org.a_kerman.game1.base;
  *
  * @author iv-g-ru
  */
-class Country {
+public class Country {
 
     private final String name;
 
