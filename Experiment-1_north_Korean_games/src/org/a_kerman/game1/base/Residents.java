@@ -4,7 +4,7 @@ package org.a_kerman.game1.base;
  *
  * @author iv-g-ru
  */
-class Residents {
+public class Residents {
 
     public int number;
     public double min_wage;

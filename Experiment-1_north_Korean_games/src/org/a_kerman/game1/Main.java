@@ -1,15 +1,18 @@
 package org.a_kerman.game1;
 
 import org.a_kerman.game1.GUI.MainGUI;
+import org.a_kerman.game1.base.DeltaTime;
 
 /**
- * запуск, и передача управления всем компонентам
+ * пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
  *
  * @author iv-g-ru.ru
  */
 public class Main {
 
     public static void main(String[] args) {
+        DeltaTime.UpdateTime();
+        System.out.println(DeltaTime.dt); // РјРѕР¶РµС€СЊ РїРѕС‚РѕРј СѓРґР°Р»РёС‚СЊ, СЌС‚Рѕ РґР»СЏ РїСЂРѕРІРµСЂРєРё РґРµР»СЊС‚Р° С‚Р°Р№Рј
         MainGUI mgui = new MainGUI();
         mgui.getGUIthread().start();
     }
