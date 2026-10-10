@@ -13,7 +13,7 @@ public class World {
     }
 
     public Region getRegions(int x, int y) {
-        return regions[x][y];
+        return regions[(x + regions.length)%regions.length][(y + regions[0].length)%regions[0].length];
     }
 
 }
